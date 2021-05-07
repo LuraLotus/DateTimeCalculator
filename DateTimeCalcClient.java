@@ -27,7 +27,7 @@ class Client
         JLabel label = new JLabel("Remaining time:");
         label.setBounds(65, 100, 100, 30);
 
-        JLabel output = new JLabel("test");
+        JLabel output = new JLabel("");
         output.setBounds(160, 100, 170, 30);
 
         JButton submit = new JButton("Submit");
@@ -68,7 +68,7 @@ class Client
             output.setText(days + " days " + hours + " hours " + minutes + " minutes");
           }
         });
-        
+
         frame.add(datepicker);
         frame.add(timepicker);
         frame.add(submit);
